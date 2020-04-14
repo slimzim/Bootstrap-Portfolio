@@ -9,38 +9,44 @@
 </head>
 <body>    
     
-    
- 
-    
-    
-    
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="name"><h1>James Zimmermann</h1></div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav mr-auto">
-        
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">About Me <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
+  <div class="wrapper">
+
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
       
-      </ul>
-    </div>
-  </nav>
+      <!-- this container makes the ul float right, but About Me takes up 2 lines, no idea why-->
+      <!-- if links are multiple words, each word displays on its own line-->
+      <div class="container">
+      <div class="name"><h1>James Zimmermann</h1></div>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        
+        </ul> 
+      </div>
+    </nav>
+
+   <!-- cannot figure out how to get images to center within columns.-->
+   <!-- cannot figure out how to get portfolio text blocks to span entire image.-->
 
   <div class="container portfolio-content">
 
     <div class="row">
+      
     
-      <div class="portfolio-container col-md-4">
+      <div class="col-md-4">
 
         <img src="assets/images/placeholder1.jpg" alt="Placeholder1">
 
@@ -50,7 +56,7 @@
       
       </div>
 
-      <div class="portfolio-container col-md-4">
+      <div class="col-md-4">
 
         <img src="assets/images/placeholder2.jpg" alt="Placeholder2">
 
@@ -60,7 +66,7 @@
       
       </div>
 
-      <div class="portfolio-container col-md-4">
+      <div class="col-md-4">
 
         <img src="assets/images/placeholder3.jpg" alt="Placeholder3">
 
@@ -68,10 +74,11 @@
               <a href="#">Example 3</a>
           </div>
       
-      </div>
-    
+      
+    </div>
     </div>
 
+    <br>
 
       <div class="row">
       
@@ -97,9 +104,9 @@
       
       </div>
 
-
-  </div>
-
+      </div>
+  
+   </div>
   
 
 

@@ -9,8 +9,15 @@
 </head>
 <body>    
     
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="wrapper">
+
+      <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        
+        <!-- this container makes the ul float right, but About Me takes up 2 lines, no idea why-->
+        <!-- if links are multiple words, each word displays on its own line-->
+        <div class="container">
         <div class="name"><h1>James Zimmermann</h1></div>
+        </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -18,7 +25,7 @@
           <ul class="navbar-nav mr-auto">
             
             <li class="nav-item active">
-              <a class="nav-link" href="index.html">About Me <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html">About Me</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -27,18 +34,22 @@
               <a class="nav-link" href="contact.html">Contact</a>
             </li>
           
-          </ul>
+          </ul> 
         </div>
       </nav>
 
-      <div class="container">
-        <div class="row" style="background-color: #ffffff;">
-          <h1>About Me</h1>
+      
+        
 
 
       <!-- <div class="row main-content"> -->
         <!-- container class makes text wrap properly but row class does not-->
       <div class="container main-content">
+
+        <!-- <div class="row" style="background-color: #ffffff;"> -->
+          <h2>About Me</h2>
+
+
       <img src="assets/images/James.jpg" alt="James Headshot" style="width:200px;height:200px">
 
       <p>Hey, I'm James.  Welcome to my website - I designed it myself!  I'm currently enrolled in a full stack coding bootcamp through Vanderbilt University with the hope of becoming a professional web developer by the end of 2020.  With the world in its current state of turmoil it's hard to predict the future, but this is a dream I'm trying my hardest to keep alive!  Quarantine is a good time to practice coding.</p>
@@ -47,14 +58,17 @@
       
       
       </div>
-
       
-       <footer class="footer container">
+      
+      
+       <footer class="footer">
        
-        Copyright &copy; 2020 James Zimmermann
+        <p">Copyright &copy; 2020 James Zimmermann</p>
       
-    </footer>
-
+       </footer>
+      </div>
+      
+      
 
       <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
