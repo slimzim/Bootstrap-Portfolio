@@ -35,7 +35,6 @@ h2 {
 
 img {
     float: left;
-    /* margin: 10px; */
 }
 
 .footer {
@@ -79,10 +78,11 @@ img {
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
-    padding: 10px;
-    bottom: 3px;
-    margin: 0px 10px 0px 10px;
-    width: 180px; 
+    padding-top: 8px;
+    padding-bottom: 8px;
+    bottom: 7px;
+    margin: 0px 0px 0px 0px;
+    width: 200px; 
 }
 
 .portfolio-text-block a {
