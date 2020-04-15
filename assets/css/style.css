@@ -13,7 +13,9 @@ body {
     
 }
 
-
+.nav-link {
+    white-space: nowrap;
+}
 
 .main-content {
     background-color: #ffffff;
@@ -24,6 +26,7 @@ body {
     margin-right: auto;
     line-height: 1.6;
     margin-top: 10px;
+    margin-bottom: 60px;
 }
 
 h2 {
@@ -62,11 +65,12 @@ img {
     /* would like this to get taller on small screens */
     /* height: 520px; */
     line-height: 1.6;
+    margin-bottom: 60px;
 }
 
 
 .portfolio-container {
-    position: relative;
+    /* position: relative; */
     width: 200px;
     height: 200px;
     /* margin: 17px 17px 17px 17px; */
