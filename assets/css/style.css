@@ -40,6 +40,7 @@ img {
     float: left;
 }
 
+
 .footer {
     position: fixed;
     bottom: 0;
@@ -62,18 +63,16 @@ img {
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
-    /* would like this to get taller on small screens */
-    /* height: 520px; */
     line-height: 1.6;
     margin-bottom: 60px;
 }
 
 
 .portfolio-container {
-    /* position: relative; */
     width: 200px;
     height: 200px;
-    /* margin: 17px 17px 17px 17px; */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
