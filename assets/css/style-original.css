@@ -52,16 +52,8 @@ img {
     background-color: #f5f5f5; 
 } 
   
-.project-thumbnail {
-    margin-bottom: 10px;
-    width: auto;
-}
+  
 
-.project-thumbnail img {
-    height: 200px;
-    width: 200px;
-    border: 2px solid #4aaaa5;
-}
 
 .portfolio-content {
     background-color: #ffffff;
